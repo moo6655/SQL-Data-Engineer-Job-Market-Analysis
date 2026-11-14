@@ -53,7 +53,7 @@ By joining these tables together, I translated thousands of individual job recor
 
 ### Query Structure
 
-- [Top Demanded Skills](01_top_demanded_skills.sql/sql)– Ranks the top 10 most requested tools across data engineering postings by counting skill occurrences.
+- [Top Demanded Skills](1_EDA/01_top_demanded_skills.sql)– Ranks the top 10 most requested tools across data engineering postings by counting skill occurrences.
 - [Top Paying Skills](./02_top_paying_skills.sql) – Identifies the top 25 highest-earning skills by calculating median annual salaries for postings with disclosed pay.
 - [Optimal Skills](./03_optimal_skills.sql)– Evaluates remote data engineering roles with at least 100 postings, combining demand and median salary into a single value score to highlight high-ROI skills.
 
