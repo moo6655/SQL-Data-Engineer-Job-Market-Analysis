@@ -1,8 +1,8 @@
 # Exploratory Data Analysis w/ SQL: Job Market Analytics
 
-![Project 1 OverVIEW](../1_EDA/Images/1_1_Project1_EDA.png)
+![Project 1 Overview](../Images/1_1_Project1_EDA.png)
 
-A SQL project analyzing the data engineer job market using real world job posting data. It demonstrates my ability to **write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights**.
+A SQL project analyzing the data engineer job market using real-world job posting data. It demonstrates my ability to **write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights**.
 
 ## 🧾 Executive Summary (For Hiring Managers)
 
@@ -13,11 +13,9 @@ A SQL project analyzing the data engineer job market using real world job postin
 
 If you only have a minute, review these:
 
-
-- [01_top_demanded_skills.sql](01_top_demanded_skills.sql/sql) – Measures skill frequency across job listings using multi-table joins.
+- [01_top_demanded_skills.sql](./01_top_demanded_skills.sql) – Measures skill frequency across job listings using multi-table joins.
 - [02_top_paying_skills.sql](./02_top_paying_skills.sql) – Calculates median salaries to reveal the highest-earning technical skills.
 - [03_optimal_skills.sql](./03_optimal_skills.sql) – Ranks skills by balancing job volume against compensation to find the best return on effort.
-
 
 ## 🧩 Problem & Context
 
@@ -39,7 +37,6 @@ To answer these questions, I queried a relational data warehouse organized in a 
 
 By joining these tables together, I translated thousands of individual job records into clear hiring benchmarks.
 
-
 ## 🧰 Tech Stack
 
 - 🐤 **Query Engine:** DuckDB for fast, local analytical processing on large datasets.
@@ -48,14 +45,13 @@ By joining these tables together, I translated thousands of individual job recor
 - 🛠️ **Development:** VS Code for writing clean scripts paired with the DuckDB CLI for rapid testing.
 - 📦 **Version Control:** Git and GitHub for organizing, documenting, and sharing reproducible code.
 
-
 ## 🏗 Analysis Overview
 
 ### Query Structure
 
-- [Top Demanded Skills](1_EDA/01_top_demanded_skills.sql)– Ranks the top 10 most requested tools across data engineering postings by counting skill occurrences.
+- [Top Demanded Skills](./01_top_demanded_skills.sql) – Ranks the top 10 most requested tools across data engineering postings by counting skill occurrences.
 - [Top Paying Skills](./02_top_paying_skills.sql) – Identifies the top 25 highest-earning skills by calculating median annual salaries for postings with disclosed pay.
-- [Optimal Skills](./03_optimal_skills.sql)– Evaluates remote data engineering roles with at least 100 postings, combining demand and median salary into a single value score to highlight high-ROI skills.
+- [Optimal Skills](./03_optimal_skills.sql) – Evaluates remote data engineering roles with at least 100 postings, combining demand and median salary into a single value score to highlight high-ROI skills.
 
 ## 💻 SQL Skills Demonstrated
 
